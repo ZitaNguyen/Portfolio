@@ -1,0 +1,102 @@
+/********************** HEADER **********************/
+header {
+    height: 50px;
+    display: flex;
+    background-color: #FBFBD4;
+}
+
+header p {
+    margin-left: 15%;
+}
+
+header p a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header p a:hover {
+    text-decoration: none;
+    
+}
+
+header ul li a {
+    color: black;
+}
+
+header ul {
+    margin-left: 45%;
+}
+
+/********************** GENERAL **********************/
+#accueil, #cv, #portfolio, #contact {
+    height: 850px;
+    padding-top: 60px;
+}
+
+#accueil p:first-of-type, #cv p, #portfolio p, #contact p {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/********************** ACCUEIL **********************/
+#accueil img  {
+    width: auto;
+    height: 200px;
+}
+
+#accueil p:last-of-type {
+    font-size: 25px;
+    font-style: italic;
+}
+
+/********************** CV **********************/
+#cv img {
+    width: auto;
+    height: 200px;
+}
+
+#cv a:last-of-type {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/********************** PORTFOLIO **********************/
+
+#portfolio img {
+    height: 200px;
+    width: 200px;
+}
+/********************** CONTACT **********************/
+#contact button {
+    background-color: black;
+    color: white;
+    margin-left: 45%;
+    border: 1px solid black;
+}
+
+/********************** FOOTER **********************/
+footer {
+    display: flex;
+    height: 90px;
+    background-color: #FBFBD4;
+}
+
+#adresse {
+    width: 20%;
+    margin-left: 15%; 
+}
+
+#reseaux {
+    width: 80%;
+    margin-left: 45%;
+}
+
+#reseaux img {
+    width: 40px;
+    height: 40px;
+}
